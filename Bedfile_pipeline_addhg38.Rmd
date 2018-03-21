@@ -201,10 +201,10 @@ writeLines(capture.output(sessionInfo()), paste0(output_path, file_prefix, "_ses
 
 
 #tests
-input_paths <- c("~/Desktop/Data/agata_test/293Tpeaks_merged_ext.bed")
-file_prefix <- "control"
-chip_names <- c("control")
-output_path <- ("~/Desktop/Data/agata_test/output_control/")
+input_paths <- c("")
+file_prefix <- ""
+chip_names <- c("")
+output_path <- ("")
 genome <- "hg38"
 
 bed_pipeline_annotate (input_paths, file_prefix, chip_names, output_path, genome, gene_ontology = FALSE)
